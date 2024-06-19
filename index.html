@@ -13,8 +13,8 @@
 </head>
 
 <body class="font-nunito h-screen">
-    <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 relative overflow-hidden z-50">
-        <nav class="w-full fixed top-0 bg-white shadow-sm">
+    <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 relative overflow-hidden">
+        <nav class="w-full fixed top-0 bg-white shadow-sm z-50">
             <div class="container mx-auto py-3 px-5 flex items-center justify-between">
                 <div class="logo_img flex items-center gap-2">
                     <img src="img/logo.png" class="w-11" alt="">
@@ -51,16 +51,25 @@
         </div>
     </div>
 
-    <div class="w-full mx-auto container">
-        <div class="flex items-center justify-center py-40 ">
-            <div class="relative">
+    <div class="w-full mx-auto container h-full items-center">
+        <div class="flex items-center justify-center gap-20 h-full ">
+            <div class="relative w-1/5">
                 <img src="img/dots.png" class="absolute h-1/4 top-0 left-0 -z-10" alt="">
-                <div class="h-1/4 rounded-full overflow-hidden">
-                    <img src="img/portrait.png" alt="">
+                <div class="overflow-hidden rounded-full">
+                    <img src="img/portrait.png" class="" alt="">
                 </div>
             </div>
-            <div class="my-auto">
-                helo
+            <div class="my-auto w-4/12 flex flex-col gap-y-5">
+                <div class="w-full h-2 bg-indigo-100 rounded-full">
+                    <div class="w-3/5 h-2 bg-indigo-400 rounded-full"></div>
+                </div>
+                <div class="w-full h-2 bg-indigo-100 rounded-full">
+                    <div class="w-4/5 h-2 bg-indigo-400 rounded-full"></div>
+                </div>
+                <div class="w-full h-2 bg-indigo-100 rounded-full">
+                    <div class="w-1/5 h-2 bg-indigo-400 rounded-full"></div>
+                </div>
+
             </div>
         </div>
     </div>
